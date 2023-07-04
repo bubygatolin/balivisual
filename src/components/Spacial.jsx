@@ -4,9 +4,11 @@ import Image from 'next/image';
 import ServImg from '../../public/assets/serv.jpg';
 import BannerImg from '../../public/assets/banner.jpg'
 
+
 const Spacial = () => {
 
   return (
+   
     <div id='spacial' className='w-full lg:h-screen p-2 flex items-center '>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>          
@@ -59,6 +61,7 @@ const Spacial = () => {
             <li> Cartazes Promocionais </li>  
             <li> Quadros Decorativos</li>  
           </ul>
+        
              
         </div>
         

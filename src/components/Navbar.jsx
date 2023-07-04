@@ -47,7 +47,7 @@ const Navbar = () => {
                 <li className='ml-10 text-sm uppercase hover:border-b  text-[#e9d94c]'>Especialidades</li>
             </Link>
             <Link href='/important' legacyBehavior>
-                <li className='ml-10 text-sm uppercase hover:border-b  text-[#e9d94c]'>Comunicação Visual</li>
+                <li className='ml-10 text-sm uppercase hover:border-b  text-[#e9d94c]'>Produtos</li>
             </Link>
             <Link href='/#contact' legacyBehavior>
                 <li className='ml-10 text-sm uppercase hover:border-b  text-[#e9d94c]'>Contato</li>
@@ -89,7 +89,7 @@ const Navbar = () => {
                 <li onClick={()=> setNav(false)} className='py-4 text-sm'>Especialidades</li>
               </Link>
               <Link href='/important' legacyBehavior>
-                <li onClick={()=> setNav(false)} className='py-4 text-sm'>Comunicação Visual</li>
+                <li onClick={()=> setNav(false)} className='py-4 text-sm'>Produtos</li>
               </Link>
               <Link href='/#contact' legacyBehavior>
                 <li onClick={()=> setNav(false)} className='py-4 text-sm'>Contato</li>
